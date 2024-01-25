@@ -1,7 +1,7 @@
 # Weather-app
 ## Key Features:
 
-###Search Functionality: 
+### Search Functionality: 
 Easily find the weather for any city or location by entering the name in the search bar. The app fetches data from a reliable weather API, ensuring accurate and up-to-date information.
 
 ### Responsive Design:
