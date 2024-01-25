@@ -14,6 +14,6 @@ The app is crafted with a responsive design, ensuring a seamless experience acro
 3: View the weather information for the current time.
 
 ## Technologies Used:
-1: HTML
-2: CSS
-3: JavaScript
+1: HTML <br>
+2: CSS <br>
+3: JavaScript 
