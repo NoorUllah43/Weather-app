@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- font-awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="containner">
+        <h1 id="heading">Weather App</h1>
+        <div class="searchBox">
+            <input type="text" id="searchInp" placeholder="Enter the City name">
+            <button id="serachBtn">Serach</button>
+        </div>
+        <div class="main">
+            <h2 id="name"></h2>
+            <div class="tempBox">
+                <img src="#" alt="this is WeatherIcon image" id="WeatherIcon">
+                <h1 id="temp"></h1>
+                <span>&#8451;</span>
+            </div>
+            <div class="details">
+                <h3>feels_like: <span id="feelsLike" style="font-size: 17px;"></span></h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

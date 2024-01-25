@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A288E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containner {
+    width: 40%;
+    min-height: 50vh;
+    height: auto;
+    text-align: center;
+    /* background-color: #BBD5ED; */
+    background-image: url("https://images.unsplash.com/photo-1590647441508-3dd443885a85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRheSUyMHNreXxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+
+}
+#heading{
+    margin: 20px 0px 30px 0px;
+    color: #ffecd1;
+    width: 90%;
+}
+.searchBox {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px 30px 0px;
+}
+#searchInp {
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: large;
+    color: rgba(87, 80, 80, 0.822);
+    text-decoration: underline;
+}
+#serachBtn {
+    height: 40px;
+    width: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:  #ffecd1;
+    color: #38023B;
+    font-weight: bold;
+    font-size: 16px;
+}
+#serachBtn:hover{
+    border: 1px solid #38023B;
+}
+.main{
+    width: 100%;
+    display: none;
+}
+#WeatherIcon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -10px;
+}
+.tempBox {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#temp{
+    color: black;
+}
+span {
+    font-size: 25px;
+}
+.details {
+    width: 90%;
+}
+h3 {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .containner {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .containner {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .containner {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .searchBox {
+        flex-wrap: wrap;
+    }
+    .containner {
+        width: 90%;
+    }
+}
